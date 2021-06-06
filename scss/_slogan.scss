@@ -1,0 +1,99 @@
+
+/* slogan */
+
+.slogan {
+    background: $backblack;
+    padding: 5%;
+
+    .none {
+        display: none;
+        text-align: center;
+    }
+
+  .slogan__h3 {
+    font-size: 8vw;
+    padding: 3%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    border-bottom: solid 3px rgb(252, 57, 148);
+    border-radius: 3px;
+   }
+
+  .slogan img {
+    padding: 0;
+    width: 80%;
+    margin: 5% 10%;
+  }
+
+  #sI1 {
+    display: none;
+  }
+
+  #sI2 {
+    display: none;
+  }
+  #slogan__instagram{
+    width: 50px;
+    margin: 0;
+    margin-top: 3%;
+  }
+}
+
+@media (min-width: 700px){
+    .slogan {
+        display: flex;
+        flex-direction: row;
+        img {
+        padding: 0;
+        width: 70%;
+        margin: 5% 10%;
+      }
+      #slogan__instagram{
+        width: 50px;
+        margin: 5%;
+        margin-top: 0;
+      }
+    }
+}
+@media (min-width: 950px){
+    .slogan {
+     
+      .slogan__h3 {
+        font-size: 4vw;
+        border-bottom: solid 3px rgb(252, 57, 148);
+        border-radius: 3px;
+        padding: 0;
+      }
+      .font-tres{
+        font-family: $Montserrat;
+      }
+
+      .none {display: block;}
+      
+      div img {
+        width: 40vw;
+        margin: 5% 3%;
+        padding: 0;
+      }
+
+      div img:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+      #sI1:hover {
+        transform: scale(1.1);
+      }
+      #sI2:hover {
+        transform: scale(1.1);
+      }
+      .slogan__img {
+        display: none;
+      }
+
+      #slogan__instagram{
+        width: 50px;
+        margin: 0;
+      }
+    }
+}

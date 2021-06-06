@@ -1,0 +1,74 @@
+/* adoracion */
+.adoracion {
+    padding: 3%;
+    opacity: 0.9;
+    background-image: url(../img/casaworship.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   iframe {
+    padding: 0;
+    width: 90vw;
+    height: 50vh;
+    border: solid black 4px;
+    border-radius: 3px;
+    box-shadow: 10px 10px black;
+   }
+
+   div h3 {
+    padding-top: 5%;
+    margin-bottom: 5%;
+    width: 60vw;
+    font-size: 7vw;
+    text-shadow: 2px 2px #949494;
+    color: white;
+    text-align: center;
+   }
+
+   div p {
+    display: none;
+   }
+
+}
+@media (min-width: 700px){
+    .adoracion { 
+        iframe {
+         width: 80vw;
+         height: 50vw;
+        }
+     }
+}
+@media (min-width: 950px){
+    .adoracion {
+
+        div h3 {
+         margin-left: 0;
+         width: 20vw;
+         font-size: 3vw;
+         text-shadow: 2px 2px #949494;
+         border-radius: 5px;
+         color: white;
+       }
+        div iframe {
+         padding: 0;
+         width: 40vw;
+         height: 30vw;
+       }
+        div p {
+         display: block;
+         margin-top: 5%;
+         font-size: 2vw;
+         font-weight: 600;
+         line-height: 1.5em;
+         text-align: center;
+         color: white;
+       }
+        div a {
+         text-decoration: none;
+         color: #FF0000;
+         border: solid #FF0000 3px;
+         border-radius: 5px;
+         padding: 2px;
+       }
+     }
+}

@@ -1,0 +1,69 @@
+
+/* anuncio */
+
+.Anuncio {width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/fondob2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    opacity: 0.9;
+
+    div{
+
+      .Anuncio__img {
+       padding: 5%;
+       width: 80%;
+      }
+
+        p {
+          padding: 10%;
+         font-size: 5vw;
+          font: 600;
+          text-align: center;
+
+           a {
+            text-decoration: none;
+            color: #d13282;
+            font-weight: 600;
+           }
+        }
+    }
+}
+
+@media (min-width: 700px){
+    .Anuncio{ 
+
+        div{
+          
+            .Anuncio__img {
+               width: 70%;
+            }
+          
+            p {
+              font-size: 4vw;
+            }
+        } 
+
+    }      
+}
+@media (min-width: 950px){
+        /* anuncio */
+        .Anuncio{ 
+
+            div {
+                .Anuncio__img {
+                padding-left: 3%;
+                width: 40%;
+                margin: 3% 0%;
+               }
+                p {
+                padding: 3%;
+                font-size: 2vw;
+               }
+            }
+    
+        }       
+    
+}
